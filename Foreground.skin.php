@@ -255,14 +255,14 @@ class foregroundTemplate extends BaseTemplate {
 					</ul>
 					</div>	
 					<div id="footer-right-icons" class="<?php echo $footerRightClass;?>">
-					<ul id="poweredby">
+					<?php /*<ul id="poweredby">
 						<?php foreach ( $this->getFooterIcons( $poweredbyType ) as $blockName => $footerIcons ) { ?>
 							<li class="<?php echo $blockName ?>"><?php foreach ( $footerIcons as $icon ) { ?>
 								<?php echo $this->getSkin()->makeFooterIcon( $icon, $poweredbyMakeType ); ?>
 								<?php } ?>
 							</li>
 						<?php } ?>
-					</ul>
+					</ul> */?>
 					</div>								
 				</div>
 			</footer>
